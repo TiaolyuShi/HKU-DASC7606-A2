@@ -97,7 +97,7 @@ The code structure is as follows:
 ```
 └── src
     ├── dataset
-    │   ├── test.json               # test data (which will be released later)
+    │   ├── test.json               # test data
     │   ├── train.json              # train data
     |   └── valid.json              # validation data
     ├── main.py                     # main file to train and evaluate the model
@@ -230,7 +230,7 @@ If your student id is 12345, then the file should be organized as follows:
 
 ### 3.6 When to submit?
 
-The deadline is Apr 7 (Fri).
+The deadline is Apr 14 (Fri).
 
 Late submission policy:
 
@@ -256,7 +256,7 @@ Marks will be given based on the performance that you achieve on the test and th
 
 The marking scheme has two parts, (1) the performance ranking based on F1 and EM (70% marks) and (2) the final report (30% marks):
 
-1. For the performance part (70%), the mark will be given based on the performance (0.5 * EM + 0.5 * F1) of your model:
+1. For the performance part (70%), the mark will be given based on the performance (0.5 * EM + 0.5 * F1) of your model (In output: EM - "exact"; F1 - "f1"):
 
     (1) 0.5 * EM + 0.5 * F1 larger than 76 will get the full mark of this part.
 
